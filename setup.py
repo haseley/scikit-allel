@@ -8,7 +8,7 @@ try:
 except ImportError:
     from setuptools.command.build_ext import build_ext
 
-DISTNAME = 'scikit-allel-beta'
+DISTNAME = 'allel'
 
 PACKAGE_NAME = 'allel'
 
