@@ -1806,7 +1806,7 @@ def vcf_to_dataframe(input,
     fields, _, _, it = iter_vcf_chunks(
         input=input, fields=fields, exclude_fields=exclude_fields, types=types,
         numbers=numbers, alt_number=alt_number, buffer_size=buffer_size,
-        chunk_length=chunk_length, fills=fills, region=region, tabix=tabix, samples=[],
+        chunk_length=chunk_length, fills=fills, region=region, tabix=tabix, samples=None,
         transformers=transformers
     )
 
